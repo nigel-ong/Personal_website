@@ -26,4 +26,10 @@ ul{
 
 footer{
     background-color: #a6cad4;
+    text-align: center; 
+}
+
+nav ul li {
+    list-style-type: none;
+    margin
 }
