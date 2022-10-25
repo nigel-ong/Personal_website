@@ -1,5 +1,8 @@
 body {
     background-color:blanchedalmond;
+}
+
+article{
     display: grid;
 }
   
@@ -9,20 +12,22 @@ header{
 
 h1 {
     color: #334259;
-    display: flex;
-    justify-content: center;
-    /* text-align: center;  */
+    /* display: flex; */
+    text-align: center;
 }
 
 
 nav{
-    background-color: #a6cad4;
+    list-style-type: none;
+    margin: 0 5px;  
 }
 
 ul{
     display: flex;
     margin-bottom: 3px;
     justify-content: center;
+    list-style-type: none;
+    margin: 0 5px;
 }
 
 .font1{
@@ -34,8 +39,7 @@ footer{
     text-align: center; 
 }
 
-nav ul li {
-    list-style-type: none;
+li {
     margin: 0 5px;
 }
 
