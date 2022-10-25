@@ -2,11 +2,10 @@ body {background-color:blanchedalmond}
     
 h1 {color:blueviolet}
 
-.navBG{
-    background-color: lightblue;
-}
+
 nav{
     text-align: center;
+    background-color: lightblue;
 }
 
 ul{
