@@ -1,11 +1,19 @@
-body {background-color:blanchedalmond}
+body {
+    background-color:blanchedalmond;
+    display: grid;
+}
     
-h1 {color:blueviolet}
+h1 {
+    color: #334259;
+    background-color: #a6cad4;
+    text-align: center; 
+    
+}
 
 
 nav{
     text-align: center;
-    background-color: lightblue;
+    background-color: #a6cad4;
 }
 
 ul{
@@ -14,4 +22,8 @@ ul{
 
 .font1{
     font-family: 'Montserrat', Courier, monospace;
+}
+
+footer{
+    background-color: #a6cad4;
 }
