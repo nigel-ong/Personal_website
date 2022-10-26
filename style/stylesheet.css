@@ -5,6 +5,7 @@ body {
 article{
     display: grid;
     grid-template-columns: 2fr 1fr;
+    gap: 0 10px;
 }
   
 header{
@@ -26,7 +27,7 @@ nav{
     /* margin: 0 5px;   */
 }
 
-ul{
+nav ul{
     display: flex;
     justify-content: center;
     list-style-type: none;
