@@ -12,22 +12,24 @@ header{
 
 h1 {
     color: #334259;
-    /* display: flex; */
     text-align: center;
+}
+
+h2{
 }
 
 
 nav{
     list-style-type: none;
-    margin: 0 5px;  
+    /* margin: 0 5px;   */
 }
 
 ul{
     display: flex;
-    margin-bottom: 3px;
     justify-content: center;
     list-style-type: none;
-    margin: 0 5px;
+    /* margin: 0 5px; */
+    /* margin-bottom: 3px; */
 }
 
 .font1{
@@ -39,7 +41,7 @@ footer{
     text-align: center; 
 }
 
-li {
+nav ul li {
     margin: 0 5px;
 }
 
