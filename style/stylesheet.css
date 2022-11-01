@@ -2,7 +2,7 @@ body {
     background-color: #EDDDD0;
 }
 
-article{
+article div{
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 0 10px;
@@ -52,14 +52,12 @@ nav ul li {
     margin: 0 5px;
 }
 
+/* Course pages */
+section div ul li{
+    list-style-type: none;
+}
+
 
 @media screen and (min-width:600px) {
 
-    
-        
 }
-.respdes {
-
-
-}
-
