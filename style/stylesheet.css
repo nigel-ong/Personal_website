@@ -53,8 +53,10 @@ nav ul li {
 }
 
 /* Course pages */
-section div ul li{
-    list-style-type: none;
+
+.sep-border {
+    border-bottom: solid 2px grey;
+    margin-bottom: 10px;
 }
 
 
