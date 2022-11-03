@@ -2,12 +2,6 @@ body {
     background-color: #EDDDD0;
 }
 
-article div{
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 0 10px;
-}
-  
 header{
     background-color: #a6cad4;
 }
@@ -17,7 +11,17 @@ h1 {
     text-align: center;
 }
 
-h2{ 
+article div{
+    /* index main layout */
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 0 10px;
+}
+
+
+
+.aboutme{ 
+    /* index about me blurb */
     grid-column: 1/-1;
 }
 
@@ -26,8 +30,7 @@ nav ul{
     display: flex;
     align-items: center;
     flex-direction: column;
-    list-style-type: none;
-    
+    list-style-type: none;    
 }
 
 .font1{
@@ -48,10 +51,10 @@ nav ul li {
 }
 
 /* Course pages */
-
 .sep-border {
     border-bottom: solid 2px grey;
     margin-bottom: 10px;
+    /* <hr> would be better. */
 }
 
 
