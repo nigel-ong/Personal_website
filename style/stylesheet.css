@@ -30,7 +30,7 @@ nav ul{
 }
 
 nav ul li {
-    /* margin: 0 5px; */
+    padding: 5px;
 }
 
 article div{
