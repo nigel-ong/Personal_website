@@ -22,3 +22,9 @@ do{
     } while (
         input.length != 4 || isNaN(Number(input))
     )
+
+for (let course of courseList) {
+    if (course.code.includes(input))
+    console.log(`Yes I am taking ${course.code} - ${course.course}`);
+} 
+
