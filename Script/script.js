@@ -23,8 +23,12 @@ do{
         input.length != 4 || isNaN(Number(input))
     )
 
+let newcode = false
 for (let course of courseList) {
     if (course.code.includes(input))
-    console.log(`Yes I am taking ${course.code} - ${course.course}`);
+    console.log(`Yes I am taking ${course.code} - ${course.course}`)
+    let newcode = true
 } 
-
+if (newcode === false){
+    courseList.push({code:input, name:null})
+} 
